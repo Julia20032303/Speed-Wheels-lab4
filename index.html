@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speed Wheels</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div>
+      <h1 id="name">SPEED WHEELS</h1>
+      <p id="tagline">Ваша зручність - наш пріоритет</p>
+      <img id="logo" src="images/logo.png" alt="logo">
+    </div>
+    <div class="button-head">
+      <button class="options">НАШІ АВТО</button>
+      <button class="options">БРОНЮЮ</button>
+      <button class="options">КОНТАКТИ</button>
+    </div>
+    <div>
+      <p id="phone-number">+380 (73) 298 99 00</p>
+      <h3 id="call">Телефонуй 24/7</h3>
+    </div>
+  </header>
+
+  <div>
+    <h2 id="info">Обирайте надійний та якісний авто-прокат для своєї наступної подорожі з нами</h2><br>
+    <img id="car" src="images/car.jpg" alt="car">
+  </div>
+
+  <div class="buttons-container">
+    <button class="button">ОБИРАЙ</button>
+    <div class="arrow-container">
+      <div class="arrow"></div>
+    </div>
+    <button class="button">БРОНЮЙ</button>
+    <div class="arrow-container">
+      <div class="arrow"></div>
+    </div>
+    <button class="button">МАНДРУЙ</button>
+  </div>
+
+  <table class="table_cars">
+    <caption>Найпопулярніші варіанти авто</caption>
+    <tr>
+      <th>Модель</th>
+      <th colspan="2">Ціна</th>
+    </tr>
+    <tr>
+      <td>Toyota Camry</td>
+      <td>2000₴</td>
+      <td><img src="images/Toyota Camry.png" alt="Toyota Camry" height="90" width="200"></td>
+    </tr>
+    <tr>
+      <td>Honda CR-V</td>
+      <td>2500₴</td>
+      <td><img src="images/Honda.png" alt="Honda CR-V" height="100" width="200"></td>
+    </tr>
+    <tr>
+      <td>Nissan Altima</td>
+      <td>1800₴</td>
+      <td><img src="images/Nissan Altima.png" alt="Nissan Altima" height="100" width="200"></td>
+    </tr>
+    <tr>
+      <td>Hyundai Sonata</td>
+      <td>1400₴</td>
+      <td><img src="images/Hyundai Sonata.png" alt="Hyundai Sonata" height="110" width="200"></td>
+    </tr>
+  </table>
+
+  <ul class="list">
+    <h2>Наші послуги для Вашого комфорту </h2>
+    <li class=""><a href="#">Допоможемо підібрати ідеальне авто для вашого відпочинку.</a></li>
+    <li class=""><a href="#">Додаткові послуги, такі як: навігація та авто-крісла.</a></li>
+    <li class=""><a href="#">Оформлюемо всі види страхування для вашої безпеки.</a></li>
+    <li class=""><a href="#">Доставляемо автомобіль у зручне для вас місце.</a></li>
+    <li class=""><a href="#">Консультації з власним менеджером 24/7.</a></li>
+  </ul>
+  <script src="script.js"></script>
+  <form class="booking">
+    <h2>Забронювати краще авто</h2>
+    <fieldset>
+      <label for="name">Ім'я та Призвище *</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="telephone">Номер телефону *</label>
+      <input type="text" id="telephone" name="telephone" required minlength="10" placeholder="+380 (**) *** ** **">
+      <br>
+      <label for="email">Електрона адреса</label>
+      <input type="email" id="email" name="email">
+      <br>
+      <label for="date">Дата бронювання *</label>
+      <input type="date" id="date" name="date" required>
+      <br>
+      <p>
+        <input type="submit" value="Надіслати">
+      </p>
+    </fieldset>
+  </form>
+  
+</body>
+
+</html>
